@@ -1,0 +1,9 @@
+body {
+    padding-top: 10px;
+}
+
+.img-responsive.help {
+    border: 1px;
+    border-color: #d3d3d3;
+    border-style: solid;
+}

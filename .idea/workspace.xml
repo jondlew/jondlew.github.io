@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3914e0c-f6ef-4bd4-8fdd-4efdc83c2e38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carpool-kids/help/introduction.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/carpool-kids/help/v4/introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/carpool-kids/help/v4/introduction.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,10 +34,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/introduction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="564">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="486" column="14" selection-start-line="486" selection-start-column="14" selection-end-line="486" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carpool-kids/help/bootstrap/css/help.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -70,6 +82,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img-f</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -79,6 +96,7 @@
         <option value="$PROJECT_DIR$/carpool-kids/privacy.html" />
         <option value="$PROJECT_DIR$/carpool-kids/terms.html" />
         <option value="$PROJECT_DIR$/carpool-kids/help/introduction.html" />
+        <option value="$PROJECT_DIR$/carpool-kids/help/v4/bootstrap.css" />
         <option value="$PROJECT_DIR$/carpool-kids/help/v4/introduction.html" />
       </list>
     </option>
@@ -89,9 +107,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1389" />
+    <option name="width" value="1536" />
     <option name="height" value="937" />
   </component>
   <component name="ProjectView">
@@ -116,6 +134,13 @@
               <item name="jondlew.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="carpool-kids" type="462c0819:PsiDirectoryNode" />
               <item name="help" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jondlew.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jondlew.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="carpool-kids" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jondlew.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -149,9 +174,10 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576649692002" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576654080067" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,24 +240,25 @@
       <option name="presentableId" value="Default" />
       <updated>1576435357622</updated>
       <workItem from="1576435361473" duration="3479000" />
-      <workItem from="1576605656979" duration="6125000" />
+      <workItem from="1576605656979" duration="10487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9604000" />
+    <option name="totallyTimeSpent" value="13966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1389" height="937" extended-state="0" />
+    <frame x="0" y="23" width="1536" height="937" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24424647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22021419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -285,11 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carpool-kids/help/friends.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/carpool-kids/help/introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -297,10 +319,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/carpool-kids/help/friends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carpool-kids/help/bootstrap/css/help.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="486" column="14" selection-start-line="486" selection-start-column="14" selection-end-line="486" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/introduction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="564">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>

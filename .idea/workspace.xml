@@ -34,8 +34,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/introduction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="315">
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carpool-kids/help/bootstrap/css/styles.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30769">
+              <caret line="4" column="25937" selection-start-line="4" selection-start-column="25937" selection-end-line="4" selection-end-column="25937" />
             </state>
           </provider>
         </entry>
@@ -174,7 +183,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576654306977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576656576096" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -240,12 +249,12 @@
       <option name="presentableId" value="Default" />
       <updated>1576435357622</updated>
       <workItem from="1576435361473" duration="3479000" />
-      <workItem from="1576605656979" duration="10714000" />
+      <workItem from="1576605656979" duration="12974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14193000" />
+    <option name="totallyTimeSpent" value="16453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1536" height="937" extended-state="6" />
@@ -334,10 +343,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/carpool-kids/help/bootstrap/css/styles.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30769">
+          <caret line="4" column="25937" selection-start-line="4" selection-start-column="25937" selection-end-line="4" selection-end-column="25937" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/introduction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="315">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
         </state>
       </provider>
     </entry>

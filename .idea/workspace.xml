@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3914e0c-f6ef-4bd4-8fdd-4efdc83c2e38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carpool-kids/help/introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/carpool-kids/help/introduction.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,9 +34,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/carpool-kids/help/introduction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="555">
+              <caret line="26" column="151" selection-start-line="26" selection-start-column="151" selection-end-line="26" selection-end-column="151" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carpool-kids/help/friends.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28" />
           </provider>
         </entry>
       </file>
@@ -107,6 +114,21 @@
               <item name="carpool-kids" type="462c0819:PsiDirectoryNode" />
               <item name="help" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jondlew.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jondlew.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="carpool-kids" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jondlew.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jondlew.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="carpool-kids" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,7 +147,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576613417772" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576648043642" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -190,12 +212,12 @@
       <option name="presentableId" value="Default" />
       <updated>1576435357622</updated>
       <workItem from="1576435361473" duration="3479000" />
-      <workItem from="1576605656979" duration="2768000" />
+      <workItem from="1576605656979" duration="4487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6247000" />
+    <option name="totallyTimeSpent" value="7966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1389" height="937" extended-state="0" />
@@ -261,10 +283,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/carpool-kids/help/friends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/carpool-kids/help/introduction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="555">
+          <caret line="26" column="151" selection-start-line="26" selection-start-column="151" selection-end-line="26" selection-end-column="151" />
         </state>
       </provider>
     </entry>

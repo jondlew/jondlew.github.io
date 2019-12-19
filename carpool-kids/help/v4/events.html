@@ -18,8 +18,7 @@
                     <li class="list-group-item">Here you'll create, view and edit the Events for all of your Carpools. Events can be one or two-way, and can be created one at a time or as a repeating series. Each event has its own message thread, and tracks its changes so you'll always know who did what and when.</li>
                     <li class="list-group-item"><a href="#create">Create an Event</a></li>
                     <li class="list-group-item"><a href="#events_list">Events List</a></li>
-                    <li class="list-group-item"><a href="#add_kid">Add a Kid</a></li>
-                    <li class="list-group-item"><a href="#editing">Editing a Carpool</a></li>
+                    <li class="list-group-item"><a href="#event_edit">Edit an Event</a></li>
                 </ul>
 
             </div>
@@ -77,21 +76,116 @@
     <h4 class="mt-2 mb-3" id="events_list">Events List</h4>
     <div class="row">
         <div class="col-6">
-            <p>After saving the repeating event an updated Events list will load. Event entries are grouped by date, and show the carpool name, event name, to/from time, assigned driver and rider count. Drives with an assigned driver also indicate how many open seats are available, with overfilled drives using a red badge.</p>
+            <p>After saving the repeating event an updated Events list will load. Events are grouped by date, and show the Carpool Name, Event Name, To/From times, Location, assigned Driver and Rider count. An assigned driver row also has a green/gray/red badge showing the open seat count.</p>
         </div>
         <div class="col-6">
             <img class="col mt-1 mb-4" src="images/events/all_events.png">
         </div>
     </div>
 
-    <div class="row mt-3">
-        <div class="col-6">
-            <p>The buttons at the bottom of the Events view are used to quickly filter the list. The <mark>car button</mark> will show only events where you are driving at least one direction. The <mark>checked person button</mark> will only show events where your kids are riding at least one direction. Use the <mark>calendar button</mark> to set how far into the future to display events.</p>
+    <div class="row mt-4">
+        <div class="col-9">
+            <p>To filter the list to see only events where <u>you are the assigned driver</u>, tap the <mark>"My Driving Events"</mark> button in the bottom bar.</p>
         </div>
-        <div class="col-6">
-            <img class="col mt-1 mb-4" src="images/events/display_events_for.png">
+        <div class="col-3">
+            <img class="rounded mt-1" src="images/events/my_driving_btn.png">
         </div>
     </div>
+
+    <div class="row mt-4">
+        <div class="col-9">
+            <p>To filter the list to see only events where <u>your kids are riding</u>, tap the <mark>"My Kid's Events"</mark> button in the bottom bar.</p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1" src="images/events/my_kids_btn.png">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-9">
+            <p>To change how many months of events to display, tap the <mark>"Display Events For"</mark> button in the bottom bar</p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1" src="images/events/display_for_btn.png">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-9">
+            <p>To view an animated chart showing how many drives (past & future) each driver has been assigned, tap the <mark>"Chart"</mark> button in the bottom bar. <b>This is a Pro feature</b>, but a demo chart is available as a preview.</p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1" src="images/events/chart_btn.png">
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-9">
+            <p>If you've subscribed to <b>Pro</b> and have multiple carpools, use the <mark>"Filter"</mark> button to filter the list by carpool.</p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1" src="images/events/filter_carpool_btn.png">
+        </div>
+    </div>
+
+    <h4 class="mt-2 mb-3" id="event_edit">Edit an Event</h4>
+    <div class="row">
+        <div class="col-6">
+            <p>Tap an event in the list to view the event in detail. Tap the time indicators to switch the drive direction – remember the "To" direction is always blue, while the "From" direction is orange. Use the buttons at the bottom to take the following actions:</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-4" src="images/events/to_event_detail.png">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img class="col mt-1 mb-4" src="images/events/action_buttons.png">
+        </div>
+    </div>
+
+    <div class="row mt-2">
+        <div class="col-6">
+            <p>Tap the "New Message" button to create a message. Messages are sent to all friends in the carpool, and are delivered by iOS push notification and/or e-mail, depending on each friend's notification settings. </p><p><b>Note</b>: If "Suppress Notificiations" is enabled for the Carpool, a notification will not be sent.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1" src="images/events/message_create.png">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-9">
+            <p>Tap the <mark>"Message View"</mark> (speech bubble) on the upper right to view event <mark>Messages</mark> or <mark>History</mark> entries. Switch between Messages and History by tapping the switch in the list header. </p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1 " src="images/events/speech_bubble_btn.png">
+        </div>
+    </div>
+    <div class="row mb-4">
+        <div class="col">
+            <img class="col mt-1 mb-4" src="images/events/messages_and_history.png">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-9">
+            <p>Tap the <mark>"Edit Event"</mark> button if you want to change the event date, time, name, location or address.</p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1 " src="images/events/edit_button.png">
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-6">
+            <p>If the event is <mark>repeating</mark>, you'll be given the option to apply the changes to <mark>"Event Only"</mark> or to <mark>"This & Future Events"</mark>.</p>
+            <p> <b>Note</b>: A date change is only applied to the one event even if "This & Future" is selected.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1" src="images/events/edit_event.png">
+        </div>
+    </div>
+
+
 </div>
 </body>
 </html>

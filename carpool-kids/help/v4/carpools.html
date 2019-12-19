@@ -6,61 +6,131 @@
     <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0">
     <!-- Le styles -->
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="help.css">
+
 <body>
 <div class="container">
-    <div class="card mt-4 text-center bg-light mb-4">
-        <h5 class="card-title mt-2">Carpools</h5>
-    </div>
-    <div class="row">
-        <p class="lead col"></p>
+    <div class="row mt-3 mb-4">
+        <div class="col">
+            <div class="card">
+                <div class="card-header h4">Carpools</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">A carpool is made up of your friends and their kids, and serves as a template for creating Events. A carpool provides default values for "who, what and where", while the events you create for the carpool define the "when" and allow let you change the defaults as needed.</li>
+                        <li class="list-group-item"><a href="#create">Create a Carpool</a></li>
+                        <li class="list-group-item"><a href="#add_friend">Add a Friend</a></li>
+                        <li class="list-group-item"><a href="#add_kid">Add a Kid</a></li>
+                        <li class="list-group-item"><a href="#editing">Editing a Carpool</a></li>
+                    </ul>
+
+            </div>
+        </div>
     </div>
 
-    <h4 class="mt-2 mb-4">Adding Kids</h4>
+    <h4 class="mt-2 mb-3" id="create">Create a Carpool</h4>
     <div class="row">
         <div class="col-6">
-            <img class="col mt-1 mb-4" src="images/profile/profile_new.png">
-            <p>Once you've added a name, use the Save button. Then tap the placeholder image to add a picture for your Kid.</p>
+            <p>From the Main Menu go to <mark>Carpools</mark> and tap the <mark>"+" button</mark> on the upper right or the blue <mark>"Create a New Carpool"</mark> button.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-4" src="images/carpools/no_carpools.png">
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col-6">
+            <p>In the <mark>New Carpool</mark> view, provide a name, event, location name and an address. These values are <u>defaults and can be changed in each event</u>. <mark>Save</mark> the carpool.</p>
+            <p><b>Tip</b>: Keep the name, event and location names short. No need to be overly wordy or descriptive</p>
         </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-4" src="images/carpools/new_carpool.png">
+        </div>
+    </div>
+    <h4 class="mt-2 mb-3" id="add_friend">Add a Friend</h4>
+    <div class="row">
+        <div class="col-6">
+            <p>To add a Friend to your carpool, you need to invite them. Tap the <mark>blue "+"</mark> button in the <mark>"Add a Friend"</mark> section of your saved carpool.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-5" src="images/carpools/saved_carpool.png">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <p>Tap the <mark>Invite</mark> button on the upper right or use the blue <mark>"Invite a Friend"</mark> button.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-5" src="images/carpools/invite_friend.png">
+        </div>
+    </div>
 
+    <div class="row">
         <div class="col-6">
-            <p>With <mark>"My Kids"</mark> selected, use the <mark>blue "+"</mark> button to add a Kid.</p>
-            <img class="col mt-1 mb-4" src="images/profile/new_kid.png">
+            <p>From your <mark>Contacts</mark> select a friend to invite. Contacts <u>must have an e-mail address</u> in their iOS Contact entry to be selected. Contacts missing an e-mail address will be grayed out.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-5" src="images/carpools/contacts.png">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <p>Selecting a valid contact will display the <mark>Send Invitation</mark> dialog, where you can choose to <mark>Send Now</mark> or cancel the sending of the invitation. The invitation will be delivered by e-mail to the contact.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-5" src="images/carpools/send_invite.png">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <p>Once your friend creates a Carpool-Kids account and accepts your invite, they will be <u>automatically added to your carpool</u> and show up in your Friends list.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-5" src="images/carpools/carpool_friend.png">
+        </div>
+    </div>
+
+    <h4 class="mt-2 mb-3" id="add_kid">Add a Kid</h4>
+    <div class="row">
+        <div class="col-6">
+            <p>In the <mark>"Add a Kid"</mark> section of the carpool, tap the <mark>blue "+"</mark> button. As the carpool <mark>Owner</mark>, you have the ability to assign both your kids and any kids from friends who have joined the carpool.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-5" src="images/carpools/carpool_add_kid.png">
         </div>
     </div>
     <div class="row">
         <div class="col-6">
-            <img class="col mt-1 mb-5" src="images/profile/add_kid.png">
+            <p>Tap on a kid to add. You will have a choice to add the kid to just the carpool, or to the carpool AND all future events. At this point you haven't created any events, so selecting <mark>"Carpool Only"</mark> is fine. In the future, if a new kid is added, you will probably want to choose <mark>"Carpool and Future Events"</mark></p>
         </div>
         <div class="col-6">
-            <p>If you have other parents or friends that will be driving your Kid, you can add them as a <mark>"Linked Friend"</mark> once they have created an account and you've become <mark>Friends</mark>. This will allow your Kid to be shared and avoid creating a duplicate Kid in multiple accounts.</p>
-        </div>
-    </div>
-    <h4 class="mt-2 mb-4">Adding Locations</h4>
-    <div class="row">
-        <div class="col-6">
-            <p>Locations are where your Kids will be picked up and dropped off. They <b>are not</b> places your carpool <mark>Events</mark> will take place. Tap <mark>Locations</mark>, then use the <mark>blue "+"</mark> to add a new one.</p>
-            <p>Only one Location can be the <mark>"Default"</mark>, which is always used for your Kids' pickup/dropoff location unless overriden in the <mark>Event</mark>.  </p>
-        </div>
-        <div class="col-6">
-            <img class="col mt-1 mb-5" src="images/profile/locations.png">
+            <img class="col mt-1 mb-5" src="images/carpools/carpool_add_kid_options.png">
         </div>
     </div>
     <div class="row">
         <div class="col-6">
-            <img class="col mt-1 mb-5" src="images/profile/location_edit.png">
+            <p>Once you've added kids, your carpool should look something like this. As additional friends accept your invites, you'll return here to add their kids, or you can let them add their kids themselves.</p>
         </div>
         <div class="col-6">
-            <p>A Location must have a name and address before it can be saved. After naming the location, tap on <mark>"Lookup Address"</mark> and give the app permission to use your device location. This will allow the address lookup to search more accurately. Once an address is selected, the map view will update to show the location on the map. Don't forget to save!</p>
+            <img class="col mt-1 mb-5" src="images/carpools/carpool_with_kids.png">
         </div>
     </div>
-    <h4 class="mt-2 mb-4">Rider Seats</h4>
+    <h4 class="mt-2 mb-3" id="editing">Editing a Carpool</h4>
     <div class="row">
         <div class="col-6">
-            <p><mark>Friends</mark> in your carpools will want to know how many Kids your car can hold. Use the <mark>"Default Rider Seats"</mark> option to let them know. You can always override this value in an Event if necessary. Tap the <mark>blue seat count</mark> number to pick a new value.</p>
+            <p>As the carpool <mark>Owner</mark>, if you need to make any changes to the carpool name or default event, location or address, tap the <mark>pencil button</mark> on the upper right.</p>
+            <p>To remove a driver or rider, tap on their avatar to select, then use the <mark>red "-"</mark> button in the corresponding section to delete.</p>
         </div>
         <div class="col-6">
-            <img class="col mt-1 mb-5" src="images/profile/rider_seats.png">
+            <img class="col mt-1 mb-5" src="images/carpools/edit_carpool.png">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <p>If you've <mark>joined a carpool</mark> and want to leave it, use the <mark>delete button</mark> on the upper right. As a joiner, you aren't able to invite or edit the Friends section, but you <u>can add or remove your own kids</u>.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-5" src="images/carpools/joined_carpool.png">
         </div>
     </div>
 </div>

@@ -6,41 +6,58 @@
     <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0">
     <!-- Le styles -->
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="help.css">
 <body>
 <div class="container">
-    <div class="card mt-4 text-center bg-light mb-4">
-        <h5 class="card-title mt-2">Profile</h5>
-    </div>
-    <div class="row">
-        <p class="lead col">Profile is where you can edit your name and contact info, add your <mark>Kids</mark> and define as many personal <mark>Locations</mark> as you need.</p>
-    </div>
 
-    <h4 class="mt-2 mb-4">Adding Kids</h4>
+    <div class="row mt-3 mb-4">
+        <div class="col">
+            <div class="card">
+                <div class="card-header h4">Profile</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Profile is where you can edit your name and contact info, add your <mark>Kids</mark> and define as many personal <mark>Locations</mark> as you need.</li>
+                    <li class="list-group-item"><a href="#info">Personal Info</a></li>
+                    <li class="list-group-item"><a href="#add_kid">Add a Kid</a></li>
+                    <li class="list-group-item"><a href="#add_location">Add a Location</a></li>
+                    <li class="list-group-item"><a href="#rider_seats">Rider Seats</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <h4 class="mt-2 mb-3" id="info">Personal Info</h4>
     <div class="row">
+        <div class="col-6">
+            <p>Use the Profile view to edit your personal information. Tap your e-mail address to change it or use the <mark>"Change Password"</mark> button if desired. <b>NOTE</b>: If you created an account using Facebook or Google, you won't be able to edit your name or avatar image, nor can you change your e-mail address or password.</p>
+        </div>
         <div class="col-6">
             <img class="col mt-1 mb-4" src="images/profile/profile.png">
-            <p>Once you've added a name, use the Save button. Then tap the placeholder image to add a picture for your Kid.</p>
-
-        </div>
-
-        <div class="col-6">
-            <p>With <mark>"My Kids"</mark> selected, use the <mark>blue "+"</mark> button to add a Kid.</p>
-            <img class="col mt-1 mb-4" src="images/profile/new_kid.png">
         </div>
     </div>
+    <h4 class="mt-2 mb-3" id="add_kid">Add a Kid</h4>
     <div class="row">
+        <div class="col-6">
+            <p>With <mark>"My Kids"</mark> selected, use the <mark>blue "+"</mark> button to add a Kid.</p>
+            <p>Once you've added a name, use the <mark>Save</mark> button. Then tap the placeholder image to add a picture for your Kid.</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-4" src="images/profile/new_kid.png">
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <p>If you have other parents or friends that will be driving your Kid, you can add them as a <mark>"Linked Friend"</mark> once they have created an account and you've become friends. This will allow your Kid to be shared and avoid creating a duplicate Kid in multiple accounts.</p>
+        </div>
         <div class="col-6">
             <img class="col mt-1 mb-5" src="images/profile/add_kid.png">
         </div>
-        <div class="col-6">
-            <p>If you have other parents or friends that will be driving your Kid, you can add them as a <mark>"Linked Friend"</mark> once they have created an account and you've become <mark>Friends</mark>. This will allow your Kid to be shared and avoid creating a duplicate Kid in multiple accounts.</p>
-        </div>
     </div>
-    <h4 class="mt-2 mb-4">Adding Locations</h4>
+    <h4 class="mt-2 mb-3" id="add_location">Add a Location</h4>
     <div class="row">
         <div class="col-6">
-            <p>Locations are where your Kids will be picked up and dropped off. They <b>are not</b> places your carpool <mark>Events</mark> will take place. Tap <mark>Locations</mark>, then use the <mark>blue "+"</mark> to add a new one.</p>
-            <p>Only one Location can be the <mark>"Default"</mark>, which is always used for your Kids' pickup/dropoff location unless overriden in the <mark>Event</mark>.  </p>
+            <p>Locations are where your Kids will be <u>picked up and dropped off</u>. They <b>are not</b> the places your carpool Events will take place. Tap <mark>Locations</mark>, then use the <mark>blue "+"</mark> to add a new one.</p>
+            <p>Only one Location can be the <mark>"Default"</mark>, which is always used for your Kids' pickup/dropoff location unless <u>overriden</u> in the Event.  </p>
         </div>
         <div class="col-6">
             <img class="col mt-1 mb-5" src="images/profile/locations.png">
@@ -48,16 +65,16 @@
     </div>
     <div class="row">
         <div class="col-6">
+            <p>A Location must have a name and address before it can be saved. After naming the location, tap on <mark>"Lookup Address"</mark> and give the app permission to use your device location. This will allow the address lookup to search more accurately. Once an address is selected, the map view will update to show the location on the map. Don't forget to <mark>save</mark>!</p>
+        </div>
+        <div class="col-6">
             <img class="col mt-1 mb-5" src="images/profile/location_edit.png">
         </div>
-        <div class="col-6">
-            <p>A Location must have a name and address before it can be saved. After naming the location, tap on <mark>"Lookup Address"</mark> and give the app permission to use your device location. This will allow the address lookup to search more accurately. Once an address is selected, the map view will update to show the location on the map. Don't forget to save!</p>
-        </div>
     </div>
-    <h4 class="mt-2 mb-4">Rider Seats</h4>
+    <h4 class="mt-2 mb-3 id="rider_seats">Rider Seats</h4>
     <div class="row">
         <div class="col-6">
-            <p><mark>Friends</mark> in your carpools will want to know how many Kids your car can hold. Use the <mark>"Default Rider Seats"</mark> option to let them know. You can always override this value in an <mark>Event</mark> if necessary. Tap the <mark>blue seat count</mark> number to pick a new value.</p>
+            <p>Other drivers in your carpool will want to know how many kids your car can hold. Use the <mark>"Default Rider Seats"</mark> option to let them know. You can always override this value in an Event if necessary. Tap the <mark>blue seat count</mark> number to pick a new value.</p>
         </div>
         <div class="col-6">
             <img class="col mt-1 mb-5" src="images/profile/rider_seats.png">

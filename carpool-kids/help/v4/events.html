@@ -15,10 +15,11 @@
             <div class="card">
                 <div class="card-header h4">Events</div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Here you'll create, view and edit the Events for all of your Carpools. Events can be one or two-way, and can be created one at a time or as a repeating series. Each event has its own message thread, and tracks its changes so you'll always know who did what and when.</li>
+                    <li class="list-group-item">Create, view and edit the Events for all of your Carpools. Events can be one or two-way, and can be created one at a time or as a repeating series. Each event has its own message thread, and records changes so you'll always know who did what and when.</li>
                     <li class="list-group-item"><a href="#create">Create an Event</a></li>
                     <li class="list-group-item"><a href="#events_list">Events List</a></li>
-                    <li class="list-group-item"><a href="#event_edit">Edit an Event</a></li>
+                    <li class="list-group-item"><a href="#event_detail">Event Detail</a></li>
+                    <li class="list-group-item"><a href="#drivers_riders">Drivers and Riders</a></li>
                 </ul>
 
             </div>
@@ -128,7 +129,7 @@
         </div>
     </div>
 
-    <h4 class="mt-2 mb-3" id="event_edit">Edit an Event</h4>
+    <h4 class="mt-2 mb-3" id="event_detail">Event Detail</h4>
     <div class="row">
         <div class="col-6">
             <p>Tap an event in the list to view the event in detail. Tap the time indicators to switch the drive direction – remember the "To" direction is always blue, while the "From" direction is orange. Use the buttons at the bottom to take the following actions:</p>
@@ -143,24 +144,35 @@
         </div>
     </div>
 
+    <div class="row mt-4">
+        <div class="col-9">
+            <p>Tap the <mark>"New Message"</mark> button to create a message</p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1 mb-4" src="images/events/new_message_btn.png">
+        </div>
+    </div>
+
+
+
     <div class="row mt-2">
         <div class="col-6">
-            <p>Tap the "New Message" button to create a message. Messages are sent to all friends in the carpool, and are delivered by iOS push notification and/or e-mail, depending on each friend's notification settings. </p><p><b>Note</b>: If "Suppress Notificiations" is enabled for the Carpool, a notification will not be sent.</p>
+            <p>Messages are sent to all friends in the carpool, and are delivered by iOS push notification and/or e-mail, depending on each friend's notification settings. </p><p><b>Note</b>: If <mark>"Suppress Notifications"</mark> is enabled for the Carpool, no notification is sent, but the message is still saved.</p>
         </div>
         <div class="col-6">
-            <img class="col mt-1" src="images/events/message_create.png">
+            <img class="col mt-1 mb-4" src="images/events/message_create.png">
         </div>
     </div>
 
     <div class="row mt-4">
         <div class="col-9">
-            <p>Tap the <mark>"Message View"</mark> (speech bubble) on the upper right to view event <mark>Messages</mark> or <mark>History</mark> entries. Switch between Messages and History by tapping the switch in the list header. </p>
+            <p>Tap the <mark>"Message View"</mark> (speech bubble) on the upper right to view event <mark>Messages</mark> or <mark>History</mark> entries. Move between Messages and History by tapping the switch in the list header. </p>
         </div>
         <div class="col-3">
             <img class="rounded mt-1 " src="images/events/speech_bubble_btn.png">
         </div>
     </div>
-    <div class="row mb-4">
+    <div class="row">
         <div class="col">
             <img class="col mt-1 mb-4" src="images/events/messages_and_history.png">
         </div>
@@ -180,12 +192,58 @@
             <p>If the event is <mark>repeating</mark>, you'll be given the option to apply the changes to <mark>"Event Only"</mark> or to <mark>"This & Future Events"</mark>.</p>
             <p> <b>Note</b>: A date change is only applied to the one event even if "This & Future" is selected.</p>
         </div>
-        <div class="col-6">
+        <div class="col-6 mb-5">
             <img class="col mt-1" src="images/events/edit_event.png">
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-9">
+            <p>Tap the <mark>"Duplicate"</mark> button if you want to use the current event as a template to create a new event or repeating events.</p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1 " src="images/events/duplicate_button.png">
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col-6">
+            <p>To duplicate, provide a date for the new event to occur. If you choose to make the duplicate <mark>"Repeating"</mark>, you also must provide <mark>"Repeat Every"</mark> and <mark>"Repeat Days"</mark> values.  </p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1 mb-4" src="images/events/event_duplicate.png">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-9">
+            <p>Tap the <mark>"Map"</mark> button to view a map for the current active direction (To/From).</p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1 " src="images/events/map_button.png">
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-6">
+            <p>The map button will only be available <u>if the event has an address</u>. The map view contains a pin for the event address and the address of all riders who have a Default Location defined in their parent's Profile.</p>
+            <p>Tap a pin to see the address and access the <mark>"Driving Directions"</mark> button (car icon).</p>
+        </div>
+        <div class="col-6">
+            <img class="col mt-1" src="images/events/event_map.png">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-9">
+            <p>Tap the <mark>"Delete"</mark> button to remove the event. If the event is repeating, you'll be given the option to remove all future repeats (be careful!).</p>
+        </div>
+        <div class="col-3">
+            <img class="rounded mt-1 " src="images/events/delete_btn.png">
+        </div>
+    </div>
+
+    <h4 class="mt-2 mb-3" id="drivers_riders">Drivers and Riders</h4>
 </div>
 </body>
 </html>

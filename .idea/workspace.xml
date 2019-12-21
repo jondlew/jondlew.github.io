@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3914e0c-f6ef-4bd4-8fdd-4efdc83c2e38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carpool-kids/help/v4/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/carpool-kids/help/v4/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carpool-kids/help/v4/images/events/event_map.png" beforeDir="false" afterPath="$PROJECT_DIR$/carpool-kids/help/v4/images/events/event_map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carpool-kids/help/v4/friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/carpool-kids/help/v4/friends.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
+            <state relative-caret-position="1848">
               <caret line="77" column="174" selection-start-line="77" selection-start-column="174" selection-end-line="77" selection-end-column="174" />
             </state>
           </provider>
@@ -44,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/friends.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="1608">
+              <caret line="67" column="96" selection-start-line="67" selection-start-column="96" selection-end-line="67" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -53,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/carpools.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
+            <state relative-caret-position="960">
               <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
             </state>
           </provider>
@@ -62,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/events.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="228" column="56" selection-start-line="228" selection-start-column="56" selection-end-line="228" selection-end-column="56" />
+            <state relative-caret-position="888">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -96,9 +97,9 @@
         <option value="$PROJECT_DIR$/carpool-kids/help/v4/bootstrap.css" />
         <option value="$PROJECT_DIR$/carpool-kids/help/v4/help.css" />
         <option value="$PROJECT_DIR$/carpool-kids/help/v4/introduction.html" />
-        <option value="$PROJECT_DIR$/carpool-kids/help/v4/friends.html" />
         <option value="$PROJECT_DIR$/carpool-kids/help/v4/carpools.html" />
         <option value="$PROJECT_DIR$/carpool-kids/help/v4/profile.html" />
+        <option value="$PROJECT_DIR$/carpool-kids/help/v4/friends.html" />
         <option value="$PROJECT_DIR$/carpool-kids/help/v4/events.html" />
       </list>
     </option>
@@ -119,6 +120,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,8 +158,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,7 +170,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576788755148" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576799545989" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -237,18 +238,19 @@
       <updated>1576435357622</updated>
       <workItem from="1576435361473" duration="3479000" />
       <workItem from="1576605656979" duration="23148000" />
-      <workItem from="1576690756670" duration="31802000" />
+      <workItem from="1576690756670" duration="33620000" />
+      <workItem from="1576883717480" duration="1868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58429000" />
+    <option name="totallyTimeSpent" value="62115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1185" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17935258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17552742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,20 +295,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carpool-kids/help/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/carpool-kids/privacy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -331,13 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/carpool-kids/help/friends.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -351,31 +336,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/friends.html">
+    <entry file="file://$PROJECT_DIR$/carpool-kids/help/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state>
+          <caret selection-end-line="40" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/carpools.html">
+    <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/introduction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        <state relative-caret-position="120">
+          <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
+        <state relative-caret-position="1848">
           <caret line="77" column="174" selection-start-line="77" selection-start-column="174" selection-end-line="77" selection-end-column="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/friends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1608">
+          <caret line="67" column="96" selection-start-line="67" selection-start-column="96" selection-end-line="67" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/carpools.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carpool-kids/help/v4/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="228" column="56" selection-start-line="228" selection-start-column="56" selection-end-line="228" selection-end-column="56" />
+        <state relative-caret-position="888">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>

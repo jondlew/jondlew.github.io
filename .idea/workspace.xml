@@ -55,6 +55,65 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000001373428" />
+      <entry key="S30" value="1.0005159432468251" />
+      <entry key="S60" value="1.0227143841392419" />
+      <entry key="M2" value="1.1507129196162087" />
+      <entry key="M5" value="1.4690943403976369" />
+      <entry key="M10" value="1.6849046213872678" />
+      <entry key="M15" value="1.7769982924959382" />
+      <entry key="M30" value="1.8814750662928237" />
+      <entry key="H1" value="1.938869035751432" />
+      <entry key="H2" value="1.968952545665386" />
+      <entry key="H4" value="1.9843538721747307" />
+      <entry key="D1" value="1.9973751475676431" />
+      <entry key="W1" value="1.999624598566804" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.2716837156315145" />
+      <entry key="MS500" value="0.7705711083584078" />
+      <entry key="S2" value="0.9369214468724255" />
+      <entry key="S5" value="0.9742743573088017" />
+      <entry key="S10" value="0.9870533711897037" />
+      <entry key="S30" value="0.9961797492993693" />
+      <entry key="S60" value="1.0205031953629307" />
+      <entry key="M2" value="1.1494892242241614" />
+      <entry key="M5" value="1.4684877638885654" />
+      <entry key="M10" value="1.6845616643850334" />
+      <entry key="M15" value="1.7767583699543377" />
+      <entry key="M30" value="1.8813487042371508" />
+      <entry key="H1" value="1.938804096623316" />
+      <entry key="H2" value="1.968919615342789" />
+      <entry key="H4" value="1.9843372890705047" />
+      <entry key="D1" value="1.997372367097536" />
+      <entry key="W1" value="1.9996242009466414" />
+    </decayedShown>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -120,8 +179,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -170,8 +232,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
       </set>
     </attachedChunks>
   </component>
@@ -197,7 +259,8 @@
       <workItem from="1698536791222" duration="597000" />
       <workItem from="1698537679262" duration="597000" />
       <workItem from="1698706582733" duration="5000" />
-      <workItem from="1755207673008" duration="10000" />
+      <workItem from="1755207673008" duration="1094000" />
+      <workItem from="1782852341675" duration="383000" />
     </task>
     <servers />
   </component>
